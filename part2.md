@@ -4,15 +4,21 @@
 * この記事は[part1](./part1.md)を読み、環境構築を済ませた前提で書いています。ただIED環境でもほぼ同じだと思います...
 
 ## 2. 今回は
-* 「コンソールアプリケーション」テンプレートを用いてOpenCVSharpを使用する環境構築の仕方を紹介します。Part3では「Windows フォームアプリケーション」テンプレートを用いてOpenCVSharpを使用します。
+* 「コンソール アプリ(.NET Framework)」テンプレートを用いてOpenCVSharpを使用する環境構築の仕方を紹介します。Part3では「Windows フォームアプリケーション」テンプレートを用いてOpenCVSharpを使用します。
 
 ## 3. Hello world!
-Part1の3.3.1を参考に、コンソールアプリケーションテンプレートでコードが書ける状態にしてください。
 ![](./picture/part2/1.PNG)  
-この画面をよく見てみましょう！なんと「Hello World!」をコンソールに表示するコードが書いてありますね！上部分の四角で囲んだ「▷ ConsoleApp3」(ConsoleApp3はプロジェクト名によって異なります)を押してプログラムを実行してみましょう！
+Part1の3.3.1を参考に、コンソール アプリ(.NET Framework)テンプレートでコードが書ける状態にしてください。
+![](./picture/part2/1-1.PNG)  
+上図のように、static void Main(string[] args){}の{}の間に
+
+Console.WriteLine("Hello world!");  
+Console.ReadKey();  
+
+の二行を入れます。  
+そして上部分の四角で囲んだ「▷ ConsoleApp3」(ConsoleApp3はプロジェクト名によって異なります)を押してプログラムを実行してみましょう！
 ![](./picture/part2/2.PNG) 
 コンソールに「Hello world!」と表示されてますね！  
-(下の謎の□は気にしないでください...たぶん皆さんの正常な環境では日本語が表示されてると思います)  
 以上の方法で、C#で書かれたプログラムを実行することができます！
 ## 4. OpenCVSharpの使用
 次はOpenCVSharpを使用する方法を学んでみましょう！  

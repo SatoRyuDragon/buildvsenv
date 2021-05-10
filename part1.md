@@ -3,7 +3,7 @@
 * これはIEDでのWindows上の実験環境をローカル環境でも構築することを目的とした記事です。
 * Visual StudioのバージョンがIEDと違う(IEDは2017、本記事は2019)など差異はありますが、実際にこの記事の手順で書いたプログラムをIED上のVisual Studioでコンパイルして動作することを確認しています。  
 * Windows環境向けの記事です、MacOS、Linuxを使用の方はこの方法では動きません(そもそもVisual Studioがないし...)  Windows環境以外の方は別環境(Vim,VSCode,etc...)や別言語(C++,Python,etc...)でも実験の本質的なこと(OpenCVを動かす)は実行できます、ただフォームはIED上で作る必要があります この場合には使用するOpenCVのバージョンに気を付けてください(本実験ではOpenCVSharp2.4.10を使用しています)
-* この記事はPart1です、Visual Studioのインストールを解説します。[part2](./part2.md)ではOpenCVSharpの使用方法を解説する予定です。
+* この記事はPart1です、Visual Studioのインストールを解説します。Part2ではOpenCVSharpの使用方法を解説する予定です。
 
 ## 2. これすると何がいいの？
 * 自前のPCで実験課題ができる
@@ -47,4 +47,4 @@ Windows フォームアプリケーションが作りたい場合は上図の「
 ![](./picture/14.PNG)  
 コードが書けます！！！お疲れさまでした！！！！！！（戦いは始まったばかり）
 
-[part2](./part2.md)へつづく
+part2へつづく
